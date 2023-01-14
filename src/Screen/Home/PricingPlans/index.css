@@ -1,0 +1,84 @@
+.text_pricingplans
+{
+    text-align: center;
+    padding-top: 50px;
+}
+.text_pricingplans p {
+    color: #0554f2;
+    font-size: 15px;
+    border-left: 7px solid #0d6efd;
+    padding-left: 10px;
+}
+.text_pricingplans h3{
+    font-size: 35px;
+    margin-top: -1px;
+}
+.pricing_card
+{
+    justify-content: center;
+    gap: 20px;
+}
+.pricing_card1
+{
+    border-radius: 10px;
+}
+.pricing_card1 h2
+{
+    margin-left: 20px;
+    font-size:30px;
+}
+.pricing_card1 p
+{
+  margin-left: 20px;
+}
+.pricing_icon p
+{
+    margin-top: 1px;
+    font-size: 20px;
+    color: gray;
+}
+.pricing_card1
+{
+    background-color: #f7fafc;
+}
+
+
+/* Group */
+#bigdeal1
+{
+
+    background: linear-gradient(
+        rgba(35,43,56,0.5),
+        rgba(35,43,56,0.5)
+
+    ),url(../../../Images/group.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.group_main 
+{
+    justify-content: center;
+    gap: 10px;
+}
+.card_group
+{
+    /* border: 1px solid black; */
+    padding: 50px;
+    padding-left: 8%;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.card_group h1
+{
+    font-size: 50px;
+    margin-left: 15%;
+}
+.card_group p
+{
+    margin-top: -20px;
+    margin-left: -20px;
+    font-size: 30px;
+}

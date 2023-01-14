@@ -1,0 +1,63 @@
+.About_company {
+    margin-top: 80px;
+}
+
+.About_company p {
+    color: #0554f2;
+    font-size: 15px;
+    border-left: 7px solid #0d6efd;
+    padding-left: 10px;
+}
+
+.About_company h3 {
+    font-size: 50px;
+    margin-top: -1px;
+}
+
+.About_company h4 {
+    margin-top: -5px;
+    font-size: 30px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #0d6efd;
+}
+
+.About_company text {
+    color: gray;
+    line-height: 30px;
+
+}
+
+.background_aboutCompany {
+    background-image: url(../../../Images/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.up_and_down_img  {
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+.up_and_down_img
+{
+
+    /* background-color:  #ecf5ff; */
+    background-color: rgba(51, 128, 255,0.8);
+    border-radius: 8px;
+}
+.up_and_down_img h1
+{
+    padding-left: 10px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,18 @@
+.why_choose_us_main
+{
+    justify-content: center;
+    gap:20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.why_choose_us
+{
+border-radius: 15px;
+    background-color: #ecf5ff;
+}
+.why_choose_us p
+{
+    font-size: 20px;
+    margin-left: 20px;
+}
+

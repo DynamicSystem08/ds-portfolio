@@ -1,0 +1,53 @@
+.our_chase_study_main {
+    background-color: rgb(0, 0, 51);
+    padding-top: 70px;
+    height: 300px;
+}
+
+.our_case_studies p {
+    color: white;
+    font-size: 15px;
+    border-left: 7px solid white;
+    padding-left: 10px;
+}
+
+.our_case_studies h3 {
+    font-size: 35px;
+    margin-top: -1px;
+    color: white;
+}
+
+.our_case_study_img {
+    width: 200px;
+    margin-right: 30px;
+
+}
+
+.our_case_study_card {
+    justify-content: center;
+    margin-top: -90px;
+}
+
+.our_case_study_img img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+.analysis
+{
+   text-align: center;
+    background-color: rgb(0, 0, 41);
+border-radius: 10px;
+    width: 80%;
+    color: white;
+    margin-left: 40px;
+    /* margin-top: -60px; */
+}
+.analysis h2{
+    padding-top: 10px;
+}
+.analysis p
+{
+    margin-top: -15px;
+    padding-bottom: 10px;
+}

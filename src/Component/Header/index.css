@@ -1,0 +1,24 @@
+#headerimg {
+    width: 250px;
+    /* padding-top: 10px; */
+    margin: -30px;
+    margin-left: 20px;
+
+}
+
+#headerimg img {
+    width: 66%;
+    height: auto;
+}
+.btn_color_change:hover
+{
+    color: #0554f2;
+}
+.responsive_logo{
+    width: 50px;
+    padding-left: 70px;
+}
+.responsive_logo img{
+    width: 100px;
+    height: auto;
+}

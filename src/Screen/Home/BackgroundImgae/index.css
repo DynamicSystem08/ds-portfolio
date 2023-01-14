@@ -1,0 +1,38 @@
+.background_img
+{
+    margin-top: -70px;
+    background: linear-gradient(
+    rgba(35,43,56,0.5),
+    rgba(35,43,56,0.5)
+    ),url(../../../Images//img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto
+}
+.content_color h1
+{
+    color: white;
+    font-size: 50px;
+    border-bottom: 5px solid white;
+    width: 85%;
+    margin-top: 90px;   
+    transition: 0.8s; 
+}
+.content_color p
+{
+    color: white;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+.content_color button
+{
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+/* @media (max-width:414px){
+    .heading_background h1{
+        font-size: 20px;
+    }
+} */

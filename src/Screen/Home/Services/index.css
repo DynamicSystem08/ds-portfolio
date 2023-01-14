@@ -1,0 +1,112 @@
+.service_main {
+    background-color: #ecf5ff;
+}
+
+.our_service {
+    padding-top: 50px;
+}
+
+.our_service p {
+    color: #0554f2;
+    font-size: 15px;
+    border-left: 7px solid #0d6efd;
+    padding-left: 10px;
+}
+
+.our_service h3 {
+    font-size: 50px;
+    margin-top: -1px;
+}
+
+.service_card_parent {
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.service_card {
+    border-left: 1px solid #0554f2;
+    border-right: 1px solid #0554f2;
+
+    /* justify-content: center; */
+}
+
+.card_icon {
+    padding-left: 30px;
+    color: #0d6efd;
+}
+
+.card_text text {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.card_text p {
+    line-height: 30px;
+    color: gray;
+    text-align: justify;
+    padding-top: 15px;
+    margin-left: -20px;
+}
+
+.service_card {
+    /* border: 2px solid black; */
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* #slide1 img{
+    width: 100%;
+    height: auto;
+} */
+.content {
+    background-color: #0554f2 ;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    color: white;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 2s;
+}
+
+.service_card:hover .content {
+    left: 0;
+}
+/* We offer */
+.we_offer_main
+{
+    text-align: center;
+    padding-top: 50px;
+}
+.we_offer_main p
+{
+    color: #0554f2;
+    font-size: 20px;
+
+}
+.we_offer_main h3
+{
+    font-size: 40px;
+    margin-top: -1px; 
+}
+/* .we_offer_main1
+{
+    margin-left: 20px;
+} */
+.we_offer_choose_us_main
+{
+  justify-content: center;
+  
+    border-bottom: 3px solid gray;
+    margin-bottom: 10px;
+}
+.choose_us
+{
+    font-size: 20px;
+    padding-top: 10px;
+    color: #0554f2;
+}
