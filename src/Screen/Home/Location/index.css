@@ -69,3 +69,15 @@
 ::-webkit-input-placeholder{
     color: white;
 }
+@media(max-width:414px){
+    #location_text{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .location_text p{
+        margin-left: 10px;
+    }
+    #input_text{
+        margin-left: 10px;
+    }
+}

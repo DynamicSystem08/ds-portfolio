@@ -75,6 +75,8 @@ body {
 {
     border-radius: 10px;
     background-color: white;
+    height: 300px;
+    margin-bottom: 10px;
 }
 .testimonials_card h1{
     color: #231F20;
@@ -100,4 +102,15 @@ body {
     margin-left: 50px;
     width: 100%;
     height: auto;
+}
+
+@media((max-width:950px)and (min-width:415px)){
+  .person_view{
+    margin-left: -20%;
+  }
+}
+@media(max-width:414px){
+  #slider_heading{
+    font-size: 27px;
+  }
 }

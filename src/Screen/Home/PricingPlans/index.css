@@ -82,3 +82,12 @@
     margin-left: -20px;
     font-size: 30px;
 }
+@media(max-width:414px){
+    #team_p{
+        font-size: 20px;
+        margin-left: 5%;
+        width: 150px;
+        margin-top: -30px;
+    }
+
+}

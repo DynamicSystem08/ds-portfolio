@@ -73,6 +73,7 @@ export default function DrawerAppBar(props: Props) {
                         edge="start"
                         onClick={handleDrawerToggle}
                         sx={{ mr: 2, display: { sm: 'none' } }}
+                    
                     >
                         <MenuIcon />
                     </IconButton>
@@ -86,7 +87,7 @@ export default function DrawerAppBar(props: Props) {
                                 <img src={logo} alt="" />
                             </Grid>
                             <Grid item lg={4}>
-                                <p style={{ fontSize: "13px", paddingTop: "8px", marginLeft: "-60px" }}>Dynamic System</p>
+                                <p style={{ fontSize: "13px", marginTop: "20%", marginLeft: "-8px" }}>Dynamic System</p>
                             </Grid>
                         </Grid>
                     </Typography>

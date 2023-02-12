@@ -19,7 +19,7 @@ function App() {
       <AboutComponay />
       <Services />
       <WhyChoosUs />
-      <OurChaseStudy />
+      {/* <OurChaseStudy /> */}
       <OurTeam />
       <Testimonials />
       <PricingPlans />

@@ -10,8 +10,8 @@ import Button from '@mui/material/Button';
 
 import "./index.css"
 function PricingPlans() {
-    return <div style={{ backgroundColor: "white" }}>
-        <Container>
+    return <div style={{ backgroundColor: "white",paddingTop:"50px" }}>
+        {/* <Container>
             <Grid container>
                 <Grid item lg={12} className="text_pricingplans">
                     <Grid container>
@@ -23,9 +23,8 @@ function PricingPlans() {
                     <h3>Flexible Pricing PLANS</h3>
                 </Grid>
             </Grid>
-        </Container>
-        <Grid container className='pricing_card'>
-            {/* <Grid container> */}
+        </Container> */}
+        {/* <Grid container className='pricing_card'>
             <Grid item lg={2.7} className="pricing_card1"
                  data-aos="fade-up"
                  data-aos-duration="3000" style={{transition:"1s"}}>
@@ -75,8 +74,7 @@ function PricingPlans() {
                     </Grid>
                 </Grid>
             </Grid>
-            {/* </Grid> */}
-            {/* Card 2 */}
+        
 
             <Grid item lg={2.7} className="pricing_card1" style={{ backgroundColor: "#ecf5ff",transition:"1.5s"}}
                  data-aos="fade-up"
@@ -129,7 +127,6 @@ function PricingPlans() {
             </Grid>
 
 
-            {/*  */}
             <Grid item lg={2.7} className="pricing_card1" style={{ backgroundColor: "#f7fafc",transition:"2s" }}
                  data-aos="fade-up"
                  data-aos-duration="3000" >
@@ -231,33 +228,33 @@ function PricingPlans() {
                     </Grid>
                 </Grid>
             </Grid>
-        </Grid>
+        </Grid> */}
 
         {/* Group */}
 
-        <div id="bigdeal1" style={{marginTop:"100px" }}>
+        <div id="bigdeal1">
             {/* <Container maxWidth="sm"> */}
             <Grid container className='group_main'>
 
 
-                <Grid item lg={3} md={5} sm={5} xs={5} className="card_group">
-                    <h1 style={{marginLeft:"30%"}}>30 </h1>
-                    <p>Project Finished</p>
+                <Grid item lg={3} md={5} sm={5} xs={6} className="card_group">
+                    <h1 style={{marginLeft:"30%"}} id="team_h1">30 </h1>
+                    <p id="team_p">Project Finished</p>
 
                 </Grid>
                 <Grid item lg={2.8} md={5} sm={5} xs={5} className="card_group">
                     <h1>110</h1>
-                    <p>Happy Clinet</p>
+                    <p id="team_p">Happy Clinet</p>
 
                 </Grid>
                 <Grid item lg={2.8} md={5} sm={5} xs={5} className="card_group">
                     <h1>20</h1>
-                    <p>Skilled Expert</p>
+                    <p id="team_p">Skilled Expert</p>
 
                 </Grid>
                 <Grid item lg={2.8} md={5} sm={5} xs={5} className="card_group">
                     <h1>109</h1>
-                    <p>Media Posts</p>
+                    <p id="team_p">Media Posts</p>
 
                 </Grid>
       
