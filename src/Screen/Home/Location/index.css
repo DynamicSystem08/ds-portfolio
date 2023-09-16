@@ -15,6 +15,7 @@
             rgba(0, 0, 0, 0.9)), url(../../../Images/img10.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 80vh;
 
 }
 
@@ -52,32 +53,49 @@
     margin-bottom: 15px;
     margin-left: 10px;
 }
-.input_filed input
-{
-    color: white;
-    padding-left: 20px;
+
+.input_filed input {
+    /* color: white; */
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 10%;
     width: 100%;
     font-size: 20px;
     height: 50px;
-    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)) ;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
 }
+
 /* .input_filed:hover input{
     background-color: white;
     color: black;
 } */
-::-webkit-input-placeholder{
+::-webkit-input-placeholder {
     color: white;
 }
-@media(max-width:414px){
-    #location_text{
+
+@media(max-width:500px) {
+    #location_text {
         font-size: 20px;
         padding-left: 10px;
     }
-    .location_text p{
+
+    .location_text p {
         margin-left: 10px;
     }
-    #input_text{
+
+    #input_text {
         margin-left: 10px;
+    }
+
+    .location_main {
+        margin-left: -10%;
+    }
+
+    .location_text1 p {
+        margin-left: 13%;
+    }
+
+    .location_text p {
+        margin-top: 10%;
     }
 }

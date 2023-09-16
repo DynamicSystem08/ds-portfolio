@@ -1,25 +1,27 @@
-.testimonilas_main
-{
-    background-color: #ecf5ff;
-    padding-top: 70px;
-    margin-top: 50px;
+.testimonilas_main {
+  background-color: #ecf5ff;
+  padding-top: 70px;
+  margin-top: -4%;
 }
 
-.testimonials_name p
-{
-    color: #0554f2;
-    font-size: 15px;
-    border-left: 7px solid #0d6efd;
-    padding-left: 10px;
-}
-.testimonials_name h3{
-    font-size: 35px;
-    margin-top: -1px;
-
+.testimonials_name p {
+  color: #0554f2;
+  font-size: 15px;
+  border-left: 7px solid #0d6efd;
+  padding-left: 10px;
 }
 
+.testimonials_name h3 {
+  font-size: 35px;
+  margin-top: -1px;
 
-#app { height: 100% }
+}
+
+
+#app {
+  height: 100%
+}
+
 html,
 body {
   position: relative;
@@ -65,52 +67,54 @@ body {
   height: 100%;
   object-fit: cover;
 }
-  /* card */
-  .slidbar_main
-  {
-    justify-content: center;
-    gap: 30px;
-  }
-.testimonials_card
-{
-    border-radius: 10px;
-    background-color: white;
-    height: 300px;
-    margin-bottom: 10px;
-}
-.testimonials_card h1{
-    color: #231F20;
-    padding-top: 20px;
-}
-.testimonials_card p
-{
-    padding-bottom: 15px;
-    text-align: justify;
-    color: gray;
-    padding-left: 12%;
-    padding-right: 12%;
-    line-height: 25px;
-}
-.person_view
-{
-    width: 400px;
-    cursor: pointer;
 
-}
-.person_view img
-{
-    margin-left: 50px;
-    width: 100%;
-    height: auto;
+/* card */
+.slidbar_main {
+  justify-content: center;
+  gap: 30px;
 }
 
-@media((max-width:950px)and (min-width:415px)){
-  .person_view{
+.testimonials_card {
+  border-radius: 10px;
+  background-color: white;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.testimonials_card h1 {
+  color: #231F20;
+  padding-top: 20px;
+}
+
+.testimonials_card p {
+  padding-bottom: 15px;
+  text-align: justify;
+  color: gray;
+  padding-left: 12%;
+  padding-right: 12%;
+  line-height: 25px;
+}
+
+.person_view {
+  width: 400px;
+  cursor: pointer;
+
+}
+
+.person_view img {
+  margin-left: 50px;
+  width: 100%;
+  height: auto;
+}
+
+@media((max-width:950px)and (min-width:415px)) {
+  .person_view {
     margin-left: -20%;
   }
 }
-@media(max-width:414px){
-  #slider_heading{
+
+@media(max-width:414px) {
+  #slider_heading {
     font-size: 27px;
   }
 }

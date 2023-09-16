@@ -7,15 +7,15 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper";
 
 import "./index.css"
-import img8 from "../../../Images/img8.png"
+import img8 from "../../../Images/icon.png"
 function Testimonials() {
-    return <div className="testimonilas_main">
+    return <div className="testimonilas_main" id='testimonials'>
 
         <Container>
             <Grid container>
                 <Grid item lg={6} className="testimonials_name">
                     <p>TESTIMONIALS</p>
-                    <h3 id="slider_heading" style={{fontFamily:'Times New Roman, Times, serif'}}>What THEY CLIENT SAY!</h3>
+                    <h3 id="slider_heading" style={{fontFamily:'Times New Roman, Times, serif',marginBottom:'50px'}}>What The Client Say!</h3>
                 </Grid>
 
             </Grid>
@@ -41,8 +41,8 @@ function Testimonials() {
                                     <img src={img8} alt="" />
                                 </Grid>
                                 <Grid item lg={10} md={10} sm={10} xs={10}>
-                                    <h2 style={{marginTop:"10px"}}>Micheal Chains</h2>
-                                    <p style={{marginTop:"-20px",paddingBottom:"20px"}}>CEO Founder</p>
+                                    <h4 style={{marginTop:"10px",marginBottom:'5%'}}>Caral Johnson</h4>
+                                    <p style={{marginTop:"-20px",paddingBottom:"20px"}}>Our Client</p>
                                 </Grid>
                             </Grid>
                         </div>
@@ -59,8 +59,8 @@ function Testimonials() {
                                     <img src={img8} alt="" />
                                 </Grid>
                                 <Grid item lg={10} md={10} sm={10} xs={10}>
-                                    <h2 style={{marginTop:"10px"}}>Micheal Chains</h2>
-                                    <p style={{marginTop:"-20px",paddingBottom:"20px"}}>CEO Founder</p>
+                                    <h4 style={{marginTop:"10px",marginBottom:'5%'}}>Basit Chaubaariya</h4>
+                                    <p style={{marginTop:"-20px",paddingBottom:"20px"}}>From Alif Enterprises</p>
                                 </Grid>
                             </Grid>
                         </div>
@@ -77,8 +77,8 @@ function Testimonials() {
                                     <img src={img8} alt="" />
                                 </Grid>
                                 <Grid item lg={10} md={10} sm={10} xs={10}>
-                                    <h2 style={{marginTop:"10px"}}>Micheal Chains</h2>
-                                    <p style={{marginTop:"-20px",paddingBottom:"20px"}}>CEO Founder</p>
+                                    <h4 style={{marginTop:"10px",marginBottom:'5%'}}>Minhaj</h4>
+                                    <p style={{marginTop:"-20px",paddingBottom:"20px"}}>From TRF</p>
                                 </Grid>
                             </Grid>
                         </div>
@@ -101,7 +101,7 @@ function Testimonials() {
                                     <img src={img8} alt="" />
                                 </Grid>
                                 <Grid item lg={10} md={10} sm={10} xs={10}>
-                                    <h2 style={{marginTop:"10px"}}>Micheal Chains</h2>
+                                    <h2 style={{marginTop:"10px",marginBottom:'5%'}}>Micheal Chains</h2>
                                     <p style={{marginTop:"-20px",paddingBottom:"20px"}}>CEO Founder</p>
                                 </Grid>
                             </Grid>
@@ -119,7 +119,7 @@ function Testimonials() {
                                     <img src={img8} alt="" />
                                 </Grid>
                                 <Grid item lg={10} md={10} sm={10} xs={10}>
-                                    <h2 style={{marginTop:"10px"}}>Micheal Chains</h2>
+                                    <h2 style={{marginTop:"10px",marginBottom:'5%'}}>Micheal Chains</h2>
                                     <p style={{marginTop:"-20px",paddingBottom:"20px"}}>CEO Founder</p>
                                 </Grid>
                             </Grid>
@@ -137,7 +137,7 @@ function Testimonials() {
                                     <img src={img8} alt="" />
                                 </Grid>
                                 <Grid item lg={10} md={10} sm={10} xs={10}>
-                                    <h2 style={{marginTop:"10px"}}>Micheal Chains</h2>
+                                    <h2 style={{marginTop:"10px",marginBottom:'5%'}}>Micheal Chains</h2>
                                     <p style={{marginTop:"-20px",paddingBottom:"20px"}}>CEO Founder</p>
                                 </Grid>
                             </Grid>

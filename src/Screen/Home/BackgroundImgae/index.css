@@ -1,6 +1,6 @@
 .background_img
 {
-    margin-top: -70px;
+    /* margin-top: 70px; */
     background: linear-gradient(
     rgba(35,43,56,0.5),
     rgba(35,43,56,0.5)
@@ -37,15 +37,17 @@
         font-size: 20px;
     }
 } */
- @media (max-width:414px){
-    #bg_heading{
-       font-size: 28px;
-    }
- }
+@media (max-width:550px)
+{
 
- @media (max-width:414px){
-    #bg_heading1{
-       font-size: 28px;
-       padding-top: 20px;
+    .content_color h1
+    {
+        color: white;
+        font-size: 30px;
+        border-bottom: 5px solid white;
+        width: 76%;
+        margin-top: 35%;   
+        transition: 0.8s;
+        font-family: 'Times New Roman', Times, serif; 
     }
- }
+}

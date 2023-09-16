@@ -18,9 +18,9 @@ function App() {
       <BackgroundImage />
       <AboutComponay />
       <Services />
-      <WhyChoosUs />
+      {/* <WhyChoosUs /> */}
       {/* <OurChaseStudy /> */}
-      <OurTeam />
+      {/* <OurTeam /> */}
       <Testimonials />
       <PricingPlans />
       <Location />

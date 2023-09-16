@@ -1,125 +1,221 @@
-import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Divider from '@mui/material/Divider';
-import Drawer from '@mui/material/Drawer';
-import IconButton from '@mui/material/IconButton';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemText from '@mui/material/ListItemText';
-import MenuIcon from '@mui/icons-material/Menu';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import Grid from '@mui/material/Grid';
+import Grid from "@mui/material/Grid";
+import Container from "@mui/material/Container";
+import Button from "@mui/material/Button";
+import logo from "../../Images/logod.png";
+import "./index.css";
 
-import logo from "../../Images/logod.png"
-import "./index.css"
-
-interface Props {
-    /**
-     * Injected by the documentation to work in an iframe.
-     * You won't need it on your project.
-     */
-    window?: () => Window;
-}
-
-const drawerWidth = 240;
-const navItems = ['Home', 'About', "Its Solution", "Pages", "Blogs", 'Contact'];
-
-export default function DrawerAppBar(props: Props) {
-    const { window } = props;
-    const [mobileOpen, setMobileOpen] = React.useState(false);
-
-    const handleDrawerToggle = () => {
-        setMobileOpen(!mobileOpen);
-    };
-
-    const drawer = (
-        <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-            <Typography variant="h6" sx={{ my: 2 }}>
+import { BrowserRouter } from "react-router-dom";
+import { HashLink, HashLink as link } from "react-router-hash-link";
+// services
+const Header = () => {
+  return (
+    <BrowserRouter>
+      <div style={{ backgroundColor: "rgb(222,190,22)" }}>
+        {/* <nav
+          class="navbar navbar-expand-lg navbar-light fixed-top"
+          style={{ backgroundColor: "white" }}
+          id="nav-main"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#" style={{color:'white'}}> 
+              Navbar
+            </a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <Container>
                 <Grid container>
-                    <Grid item lg={4} className="responsive_logo">
-                        <img src={logo} alt="" />
-                    </Grid>
-                    {/* <Grid item lg={4}>
-                        <p style={{ fontSize: "13px", paddingTop: "8px", marginLeft: "-60px" }}>Dynamic System</p>
-                    </Grid> */}
-                    </Grid >
-            </Typography>
-            <Divider />
-            <List>
-                {navItems.map((item) => (
-                    <ListItem key={item} disablePadding>
-                        <ListItemButton sx={{ textAlign: 'center' }}>
-                            <ListItemText primary={item} />
-                        </ListItemButton>
-                    </ListItem>
-                ))}
-            </List>
-        </Box>
-    );
-
-    const container = window !== undefined ? () => window().document.body : undefined;
-
-    return (
-        <Box sx={{ display: 'flex' }}>
-            <AppBar component="nav" style={{ backgroundColor: "white" }}>
-                <Toolbar>
-                    <IconButton
-                        // color="inherit"
-                        aria-label="open drawer"
-                        edge="start"
-                        onClick={handleDrawerToggle}
-                        sx={{ mr: 2, display: { sm: 'none' } }}
-                    
+                  <Grid item lg={1.5} md={1} sm={1.5}>
+                    <img src={logo} style={{width:'100%',height:'auto',marginTop:'-40%',marginBottom:'-28%'}}/>
+                  </Grid>
+                  <Grid item lg={1.5} md={1} sm={1.5} xs={12}>
+                    <p className="header_text_resp_one" id="header_text_resp">
+                      <HashLink
+                        to="#home"
+                        style={{ textDecoration: "none", color: "black" }}
+                      >
+                        <b>HOME</b>
+                      </HashLink>
+                    </p>
+                  </Grid>
+                  <Grid item lg={2} md={2} sm={1.2} xs={12}>
+                    <p className="header_text_resp_one" id="header_text_resp">
+                      <a
+                        href="#why_bgvt"
+                        style={{ textDecoration: "none", color: "black" }}
+                      >
+                        <b>Company</b>
+                      </a>
+                    </p>
+                  </Grid>
+                  <Grid item lg={1.5} md={2} sm={1.8} xs={12}>
+                    <p className="header_text_resp_one" id="header_text_resp">
+                      <a
+                        href="#bit_game"
+                        style={{ textDecoration: "none", color: "black" }}
+                      >
+                        <HashLink
+                          to="#services"
+                          style={{ textDecoration: "none", color: "black" }}
+                        >
+                          <b>Services</b>
+                        </HashLink>
+                      </a>
+                    </p>
+                  </Grid>
+                  <Grid item lg={1.6} md={2} sm={1.4} xs={12}>
+                    <p className="header_text_resp_one" id="header_text_resp">
+                      <a
+                        href="#benifts"
+                        style={{ textDecoration: "none", color: "black" }}
+                      >
+                        <HashLink
+                          to="#project"
+                          style={{ textDecoration: "none", color: "black" }}
+                        >
+                          <b>Portfolio</b>
+                        </HashLink>
+                      </a>
+                    </p>
+                  </Grid>
+                  <Grid item lg={2} md={2} sm={1.5} xs={12}>
+                    <p className="header_text_resp_one" id="header_text_resp">
+                      <a
+                        href="#raod_map"
+                        style={{ textDecoration: "none", color: "white" }}
+                      >
+                        <HashLink
+                          to="#course"
+                          style={{ textDecoration: "none", color: "black" }}
+                        >
+                          <b>Courses</b>
+                        </HashLink>
+                      </a>
+                    </p>
+                  </Grid>
+                  <Grid item lg={1.5} md={2} sm={3} xs={12}>
+                    <Button
+                      variant="outlined"
+                      style={{
+                        color: "white",
+                        border: "1px solid rgb(129,23,49)",
+                        backgroundColor: "rgb(129,23,49)",
+                      }}
+                      id="header_btn_resp"
                     >
-                        <MenuIcon />
-                    </IconButton>
-                    <Typography
-                        variant="h6"
-                        component="div"
-                        sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block', color: "black" } }}
+                      Need Help?
+                    </Button>
+                  </Grid>
+                </Grid>
+              </Container>
+
+            </div>
+          </div>
+        </nav> */}
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <div class="container-fluid">
+            <img src={logo} className="logo_img" />
+            <a class="navbar-brand" href="#"></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <Container>
+                <Grid container>
+                  {/* <Grid item lg={1.5} md={1} sm={1.5}>
+                    <img src={logo} style={{width:'100%',height:'auto',marginTop:'-40%',marginBottom:'-28%'}}/>
+                  </Grid> */}
+                  <Grid item lg={1.3}></Grid>
+                  <Grid item lg={1.5} md={1.2} sm={1.5} xs={12}>
+                    <p className="header_text_resp_one" id="header_text_resp">
+                      <HashLink
+                        to="#home"
+                        style={{ textDecoration: "none", color: "black" }}
+                      >
+                        <b>Home</b>
+                      </HashLink>
+                    </p>
+                  </Grid>
+
+                  <Grid item lg={1.8} md={2} sm={1.2} xs={12}>
+                    <p className="header_text_resp_one" id="header_text_resp">
+                      <HashLink
+                      to="#about"
+                        style={{ textDecoration: "none", color: "black" }}>
+                        <b>About</b>
+                      </HashLink>
+                    </p>
+                  </Grid>
+
+                  <Grid item lg={1.5} md={2} sm={1.8} xs={12}>
+                    <p className="header_text_resp_one" id="header_text_resp">
+                      
+                        <HashLink
+                          to="#services"
+                          style={{ textDecoration: "none", color: "black" }}
+                        >
+                          <b>Services</b>
+                        </HashLink>
+                    </p>
+                  </Grid>
+
+                  <Grid item lg={1.6} md={2} sm={1.4} xs={12}>
+                    <p className="header_text_resp_one" id="header_text_resp">
+                        <HashLink
+                          to="#team"
+                          style={{ textDecoration: "none", color: "black" }}
+                        >
+                          <b>Team</b>
+                        </HashLink>
+                    </p>
+                  </Grid>
+
+                  <Grid item lg={2} md={2} sm={1.5} xs={12}>
+                    <p className="header_text_resp_one" id="header_text_resp">
+                        <HashLink
+                          to="#testimonials"
+                          style={{ textDecoration: "none", color: "black" }}
+                        >
+                          <b>Testimonials</b>
+                        </HashLink>
+                    </p>
+                  </Grid>
+                  <Grid item lg={2} md={2} sm={3} xs={12}>
+                    <HashLink
+                      to="#location"
+                      style={{ textDecoration: 'none' }}
                     >
-                        <Grid container>
-                            <Grid item lg={4} id="headerimg">
-                                <img src={logo} alt="" />
-                            </Grid>
-                            <Grid item lg={4}>
-                                <p style={{ fontSize: "13px", marginTop: "20%", marginLeft: "-8px" }}>Dynamic System</p>
-                            </Grid>
-                        </Grid>
-                    </Typography>
-                    <Box sx={{ display: { xs: 'none', sm: 'block', paddingRight: "140px" } }}>
-                        {navItems.map((item) => (
-                            <Button key={item} sx={{ color: 'black', marginRight: "50px" }} className="btn_color_change">
-                                {item}
-                            </Button>
-                        ))}
-                    </Box>
-                </Toolbar>
-            </AppBar>
-            <Box component="nav">
-                <Drawer
-                    container={container}
-                    variant="temporary"
-                    open={mobileOpen}
-                    onClose={handleDrawerToggle}
-                    ModalProps={{
-                        keepMounted: true, // Better open performance on mobile.
-                    }}
-                    sx={{
-                        display: { xs: 'block', sm: 'none' },
-                        '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
-                    }}
-                >
-                    {drawer}
-                </Drawer>
-            </Box>
-            <Box component="main" sx={{ p: 3 }}>
-                <Toolbar />
-            </Box>
-        </Box>
-    );
-}
+                      <Button
+                        variant="outlined"
+                        style={{
+                          color: "white",
+                          border: "1px solid rgb(39,54,122)",
+                          backgroundColor: "rgb(39,54,122)",
+                        }}
+                        id="header_btn_resp"
+                      >
+                        Need Help?
+                      </Button>
+                    </HashLink>
+                  </Grid>
+                </Grid>
+              </Container>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </BrowserRouter>
+  );
+};
+
+export default Header;

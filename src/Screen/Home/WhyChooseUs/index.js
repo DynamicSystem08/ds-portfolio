@@ -16,7 +16,7 @@ function WhyChoosUs() {
                     <HotTubIcon sx={{ fontSize: "70px", marginLeft: "20px", paddingTop: "35px" }} />
                     <p><b>Product Design</b></p>
                     <p style={{ fontSize: "17px", lineHeight: "25px", color: "gray", textAlign: "start" }}>We develop interactive applications and websites based on a professional standard to make your website appear more official.
-                    </p>
+                    </p><br></br>
                     <p style={{ color: "#0554f2", paddingBottom: "25px" }}>Discover Now!</p>
                 </Grid>
 
@@ -26,7 +26,7 @@ function WhyChoosUs() {
                     <CastConnectedIcon sx={{ fontSize: "70px", marginLeft: "20px", paddingTop: "35px" }} />
                     <p><b>Web Development</b></p>
                     <p style={{ fontSize: "17px", lineHeight: "25px", color: "gray", textAlign: "start" }}>Websites for resumes, portfolios, brochures, one-off landing pages, and other informative or read-only webpages are clear examples of static
-                        websites.</p>
+                        websites.</p><br></br>
                     <p style={{ color: "#0554f2", paddingBottom: "25px" }}>Discover Now!</p>
                 </Grid>
 
@@ -44,7 +44,7 @@ function WhyChoosUs() {
                     data-aos-duration="3000" style={{ transition: "2.5s" }}>
                     <CoronavirusIcon sx={{ fontSize: "70px", marginLeft: "20px", paddingTop: "35px" }} />
                     <p><b>Problem Solving</b></p>
-                    <p style={{ fontSize: "17px", lineHeight: "25px", color: "gray", textAlign: "start" }}>Have a problem? Contact us now! We can assist you in finding a solution to your issue and together come up with superior solutions.</p>
+                    <p style={{ fontSize: "17px", lineHeight: "25px", color: "gray", textAlign: "start" }}>Have a problem? Contact us now! We can assist you in finding a solution to your issue and together come up with superior solutions.</p><br></br>
                     <p style={{ color: "#0554f2", paddingBottom: "25px" }}>Discover Now!</p>
                 </Grid>
             </Grid>

@@ -237,26 +237,26 @@ function PricingPlans() {
             <Grid container className='group_main'>
 
 
-                <Grid item lg={3} md={5} sm={5} xs={6} className="card_group">
+                <Grid item lg={3.5} md={5} sm={5} xs={7} className="card_group">
                     <h1 style={{marginLeft:"30%"}} id="team_h1">30 </h1>
                     <p id="team_p">Project Finished</p>
 
                 </Grid>
-                <Grid item lg={2.8} md={5} sm={5} xs={5} className="card_group">
+                <Grid item lg={3.5} md={5} sm={5} xs={5} className="card_group">
                     <h1>110</h1>
-                    <p id="team_p">Happy Clinet</p>
+                    <p id="team_p">Happy Clients</p>
 
                 </Grid>
-                <Grid item lg={2.8} md={5} sm={5} xs={5} className="card_group">
+                <Grid item lg={3.5} md={5} sm={5} xs={5} className="card_group">
                     <h1>20</h1>
-                    <p id="team_p">Skilled Expert</p>
+                    <p id="team_p">Skilled Experts</p>
 
                 </Grid>
-                <Grid item lg={2.8} md={5} sm={5} xs={5} className="card_group">
+                {/* <Grid item lg={2.8} md={5} sm={5} xs={5} className="card_group">
                     <h1>109</h1>
                     <p id="team_p">Media Posts</p>
 
-                </Grid>
+                </Grid> */}
       
 
             </Grid>

@@ -62,7 +62,8 @@
 .box .box_img img {
 
     width: 100%;
-    height: auto;
+    height: 60vh;
+    border-radius: 5px;
 }
 
 .box_content {

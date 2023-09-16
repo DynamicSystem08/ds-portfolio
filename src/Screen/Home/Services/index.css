@@ -38,6 +38,7 @@
 .card_text text {
     font-size: 30px;
     margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .card_text p {

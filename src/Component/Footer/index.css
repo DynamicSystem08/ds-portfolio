@@ -40,5 +40,9 @@
     color: white;
     text-align: center;
     font-size: 17px;
+    padding-top: 1%;
+}
+.footer_1 h2{
+    font-family: 'Times New Roman', Times, serif;
 }
 
